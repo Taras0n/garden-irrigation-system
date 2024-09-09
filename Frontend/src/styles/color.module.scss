@@ -1,8 +1,11 @@
-// color_module.module.scss
-
+// Змінні для стилів
 $primary-color: #4CAF50;
+$secondary-color: #f1f1f1;
+$font-color: #333;
 $header-background: #333;
 $header-font-color: white;
+
+
 
 .header {
   background-color: $header-background;
@@ -18,7 +21,7 @@ $header-font-color: white;
 .dashboard {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  gap: 30px;
   padding: 20px;
 
   .status,
@@ -53,7 +56,7 @@ $header-font-color: white;
 
       input,
       select {
-        margin-bottom: 10px;
+        margin-bottom: 50px;
         padding: 8px;
         border: 1px solid #ccc;
         border-radius: 4px;

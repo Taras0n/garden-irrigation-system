@@ -1,21 +1,8 @@
-// Змінні для стилів
+// color_module.module.scss
+
 $primary-color: #4CAF50;
-$secondary-color: #f1f1f1;
-$font-color: #333;
 $header-background: #333;
 $header-font-color: white;
-
-/** {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-*/
-body {
-  font-family: Arial, sans-serif;
-  background-color: $secondary-color;
-  color: $font-color;
-}
 
 .header {
   background-color: $header-background;

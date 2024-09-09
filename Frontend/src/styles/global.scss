@@ -1,9 +1,14 @@
-* { 
+// global.scss
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
- 
-body{
-    background: rgb(43, 43, 44);
-}
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  

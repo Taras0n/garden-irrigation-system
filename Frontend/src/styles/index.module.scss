@@ -1,0 +1,37 @@
+
+$primary-color: #4CAF50;
+$header-background: #333;
+$header-font-color: white;
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; 
+
+  .status-system, 
+  .watering-schedule, 
+  .sensors, 
+  .weather-forecast {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .status_system {
+    grid-column: 1;
+  }
+
+  .watering_schedule {
+    grid-column: 2;
+  }
+
+  .sensors {
+    grid-column: 3;
+  }
+
+  .weather_forecast {
+    grid-column: 4;
+  }
+}
+
+

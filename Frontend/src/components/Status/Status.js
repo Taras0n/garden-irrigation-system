@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './status.module.scss';
+import styles from './Status.module.scss';
 
 export default function Status() {
     const [isActive, setIsActive] = useState(true);

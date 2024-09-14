@@ -9,7 +9,7 @@ export default function Schedule() {
                 <input type="time" id="watering-time" name="watering-time" />
                 
                 <label htmlFor="watering-days">Dni:</label>
-                <select id="watering-days" name="watering-days" multiple>
+                <select id="watering-days" name="watering-days">
                     <option value="monday">Poniedziałek</option>
                     <option value="tuesday">Wtorek</option>
                     <option value="wednesday">Środa</option>

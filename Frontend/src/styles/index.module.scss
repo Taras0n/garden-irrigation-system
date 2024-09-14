@@ -1,33 +1,24 @@
-
-.container {
-  display: flex;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-   
-
-  .status-system, 
-  .watering-schedule, 
-  .sensors, 
-  .weather-forecast {
-    padding: 20px;
-    
-  }
-  
-  .status_system {
-    grid-column: 1;
-  }
-
-  .watering_schedule {
-    grid-column: 2;
-  }
-
-  .sensors {
-    grid-column: 3;
-  }
-
-  .weather_forecast {
-    grid-column: 4;
-  }
+.dashboard {
+  padding: 20px;
+  background-color: #f0f0f0; /* Додаємо фон для зручного перегляду */
 }
 
+.container {
+  display: flex; /* Flex-контейнер для горизонтального розміщення елементів */
+  justify-content: space-between; /* Розміщуємо елементи рівномірно */
+  gap: 20px; /* Відстань між елементами */
+  flex-wrap: wrap; /* Додаємо, щоб при меншому екрані елементи переносилися на новий рядок */
 
+  /* Стилі для кожної секції */
+  .status_system, 
+  .watering_schedule, 
+  .sensors, 
+  .weather_forecast {
+    flex: 1; /* Займає рівний простір у контейнері */
+    min-width: 250px; /* Мінімальна ширина для кожного блоку */
+    padding: 20px;
+    background-color: #ffffff; /* Білий фон для блоків */
+    border-radius: 8px; /* Закруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для краси */
+  }
+}

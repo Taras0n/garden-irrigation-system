@@ -1,0 +1,41 @@
+// Sensors.module.scss
+
+.sensors {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10;
+        align-items: stretch;
+    }
+    
+    h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    }
+
+    p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #666;
+    }
+}
+
+.soil_moistur {
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.temperature {
+    font-weight: bold;
+    color: #f44336;
+}

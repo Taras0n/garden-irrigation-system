@@ -1,0 +1,14 @@
+$header-background: #ffffff; 
+$header-font-color: #000000; 
+
+.header {
+    background-color: $header-background;
+    padding: 20px;
+    text-align: center;
+    color: $header-font-color;
+    
+
+    h1 {
+        font-size: 32px;
+    }
+}

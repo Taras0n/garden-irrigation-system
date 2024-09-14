@@ -1,8 +1,12 @@
-// pages/_app.js
-import '../styles/global.scss';  // Імпорт глобальних стилів
+import Layout from '../components/Layout'; 
+import '../styles/global.scss'; 
 
 function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />;
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
 
 export default MyApp;

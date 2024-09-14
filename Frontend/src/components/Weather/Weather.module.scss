@@ -1,0 +1,50 @@
+// Weather.module.scss
+
+$weather-bg-color: #f0f8ff; // Світло-блакитний фон
+$weather-border-color: #ccc;
+$weather-title-color: #333;
+$rain-color: #007bff; // Синій колір для шансів на дощ
+$temp-color: #ff6347; // Помаранчевий колір для температури
+$weather-font-size: 1.2rem;
+
+
+.weather {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10;
+        align-items: stretch;
+    }
+    h2 {
+        font-size: 1.5rem;
+        color: $weather-title-color;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    p {
+        font-size: $weather-font-size;
+        color: $weather-title-color;
+        margin-bottom: 10px;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .rain_chance {
+        color: $rain-color;
+    }
+
+    .forecast_temp {
+        color: $temp-color;
+    }
+}

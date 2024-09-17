@@ -11,10 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Data\" />
-    <Folder Include="Model\" />
-    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Weather\" />
+    <Folder Include="Repositories\Sensors\" />
+    <Folder Include="Repositories\Schedule\" />
+    <Folder Include="Repositories\Status\" />
   </ItemGroup>
 
 </Project>

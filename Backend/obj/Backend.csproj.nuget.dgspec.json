@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "O:\\garden-irrigation-system\\Backend\\Backend.csproj": {}
+    "D:\\Coding\\garden-irrigation-system\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "O:\\garden-irrigation-system\\Backend\\Backend.csproj": {
+    "D:\\Coding\\garden-irrigation-system\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\garden-irrigation-system\\Backend\\Backend.csproj",
+        "projectUniqueName": "D:\\Coding\\garden-irrigation-system\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "O:\\garden-irrigation-system\\Backend\\Backend.csproj",
-        "packagesPath": "C:\\Users\\Toksik\\.nuget\\packages\\",
-        "outputPath": "O:\\garden-irrigation-system\\Backend\\obj\\",
+        "projectPath": "D:\\Coding\\garden-irrigation-system\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\Takashi\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\garden-irrigation-system\\Backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Toksik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Takashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

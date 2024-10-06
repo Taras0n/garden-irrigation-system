@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "Backend.Controllers.ApplicationController",
+    "Method": "TurnOff",
+    "RelativePath": "api/Application/turn-off",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ApplicationController",
+    "Method": "TurnOn",
+    "RelativePath": "api/Application/turn-on",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.SystemDataController",
+    "Method": "Post",
+    "RelativePath": "api/system",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "systemDataDto",
+        "Type": "Backend.Model.DTO.SystemDataDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.SystemDataController",
+    "Method": "GetAirHumidity",
+    "RelativePath": "api/system",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
